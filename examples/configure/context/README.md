@@ -1,3 +1,5 @@
+[Toc]
+
 ### context 上下文
 类型: `string`
 
@@ -6,6 +8,15 @@
 context: path.resolve(__dirname, "app")
 ```
 默认使用当前目录，但是推荐在配置中传递一个值。这使得你的配置独立于 CWD(current working directory - 当前执行路径)。
+
+文件目录
+```javascript
+
+    -context
+     -a
+      -
+
+```
 
 webpack.config.js
 ```javascript
