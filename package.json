@@ -1,0 +1,22 @@
+{
+  "name": "webpack-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youlingred/webpack-examples.git"
+  },
+  "author": "xiehui <30897863@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youlingred/webpack-examples/issues"
+  },
+  "homepage": "https://github.com/youlingred/webpack-examples#readme",
+  "dependencies": {
+    "webpack": "^4.10.2"
+  }
+}
