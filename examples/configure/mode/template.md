@@ -1,7 +1,7 @@
 
-### mode 
+### mode 模式
 
-可选值："production" | "development" | "none"
+类型："production" | "development" | "none"
 
 * `production`  为生产构建启用多个优化
 * `development` 启用有用的开发工具
