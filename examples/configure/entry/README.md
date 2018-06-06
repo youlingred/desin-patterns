@@ -44,3 +44,113 @@
 					  }
 				}
 ```
+项目实例:
+
+```bash
+    ├── about.js
+    ├── contact.js
+    ├── home.js
+    ├── run.js
+    └── webpack.config.js
+```
+
+webpack.config.js
+
+```javascript
+const path=require('path');
+const config = {
+    entry_str: {
+        mode: "development",
+        entry: "./home.js",
+        output: {
+            path: path.resolve(__dirname,"./dist/entry_str"),
+            filename: "[name].js"
+        }
+    },
+    entry_array: {
+        mode: "development",
+        entry: ["./home.js", "./about.js"],
+        output: {
+            path: path.resolve(__dirname,"./dist/entry_array"),
+            filename: "[name].js"
+        }
+    },
+    entry_obj: {
+        mode: "development",
+        entry: {
+            home: "./home.js",
+            about: "./about.js"
+        },
+        output: {
+            path: path.resolve(__dirname,"./dist/entry_obj"),
+            filename: "[name].js"
+        }
+    },
+    entry_func: {
+        mode: "development",
+        entry: () => ["./home.js", "./about.js"],
+        output: {
+            path: path.resolve(__dirname,"./dist/entry_func"),
+            filename: "[name].js"
+        }
+    }
+}
+module.exports = config;
+```
+
+run.js
+
+```javascript
+const fs = require('fs');
+const path =require('path');
+const webpack = require('webpack');
+const config = require('./webpack.config');
+// console.log(config)
+webpack(config.entry_str, (err, stats) => {
+    if (err || stats.hasErrors()) {
+        // 在这里处理错误
+    }
+});
+webpack(config.entry_array, (err, stats) => {
+    if (err || stats.hasErrors()) {
+        // 在这里处理错误
+    }
+});
+webpack(config.entry_obj, (err, stats) => {
+    if (err || stats.hasErrors()) {
+        // 在这里处理错误
+    }
+});
+webpack(config.entry_func, (err, stats) => {
+    if (err || stats.hasErrors()) {
+        // 在这里处理错误
+    }
+});
+```
+
+运行run.js
+
+```bash
+$ node run.js
+```
+执行后文件目录
+
+```
+    ├── about.js
+    ├── build.js
+    ├── contact.js
+    ├── dist
+    │   ├── entry_array
+    │   │   └── main.js
+    │   ├── entry_func
+    │   │   └── main.js
+    │   ├── entry_obj
+    │   │   ├── about.js
+    │   │   └── home.js
+    │   └── entry_str
+    │       └── main.js
+    ├── home.js
+    ├── run.js
+    └── webpack.config.js
+
+```

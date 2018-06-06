@@ -66,4 +66,29 @@ run.js
 {{run.js}}
 ```
 
-run.js
+运行run.js
+
+```bash
+$ node run.js
+```
+执行后文件目录
+
+```
+    ├── about.js
+    ├── build.js
+    ├── contact.js
+    ├── dist
+    │   ├── entry_array
+    │   │   └── main.js
+    │   ├── entry_func
+    │   │   └── main.js
+    │   ├── entry_obj
+    │   │   ├── about.js
+    │   │   └── home.js
+    │   └── entry_str
+    │       └── main.js
+    ├── home.js
+    ├── run.js
+    └── webpack.config.js
+
+```

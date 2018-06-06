@@ -7,6 +7,7 @@ const cp = require("child_process");
 const path = require("path");
 const tc = require("./template-common");
 const fs = require("fs");
+const rm =require("rimraf");
 const async = require("neo-async");
 
 const extraArgs = "";
@@ -22,9 +23,10 @@ const doCompileAndReplace = (args, prefix, callback) => {
 		callback();
 		return;
 	}
-	if(fs.existsSync("dist"))
-		for(const file of fs.readdirSync("dist"))
-			fs.unlinkSync(`dist/${file}`);
+	// if(fs.existsSync("dist"))
+	// 	for(const file of fs.readdirSync("dist"))
+	// 		fs.unlinkSync(`dist/${file}`);
+    rm.sync("./dist")
 	cp.exec(`node ${path.resolve(__dirname, "../bin/webpack.js")} ${args} ${displayReasons} ${commonArgs}`, (error, stdout, stderr) => {
 		if(stderr)
 			console.log(stderr);

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/youlingred/webpack-examples#readme",
   "dependencies": {
+    "rimraf": "^2.6.2",
     "webpack": "^4.10.2"
   }
 }
