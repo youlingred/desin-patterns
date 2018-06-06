@@ -44,26 +44,3 @@
 					  }
 				}
 ```
-项目实例:
-
-```bash
-    ├── about.js
-    ├── contact.js
-    ├── home.js
-    ├── run.js
-    └── webpack.config.js
-```
-
-webpack.config.js
-
-```javascript
-{{webpack.config.js}}
-```
-
-run.js
-
-```javascript
-{{run.js}}
-```
-
-run.js
