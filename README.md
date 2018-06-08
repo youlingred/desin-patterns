@@ -1,6 +1,4 @@
-# webpack-examples
+# javascript 设计模式
 
-[webpack全量配置](https://www.webpackjs.com/configuration/#选项)
 
-## 配置
 
