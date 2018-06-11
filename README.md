@@ -1,4 +1,4 @@
-# javascript 设计模式
+# javascript [设计模式](http://www.runoob.com/design-pattern/design-pattern-intro.html)
 
 ## 设计模式分为三大类：
 创建型模式，共五种：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式。
@@ -31,3 +31,53 @@
 ### 6、合成复用原则（Composite Reuse Principle）
 尽量首先使用合成/聚合的方式，而不是使用继承。
 
+##设计模式的类型
+### 创建型模式
+这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
+
+* 工厂模式(Factory Pattern)
+* 抽象工厂模式(Abstract Factory Pattern)
+* 单例模式(Singleton Pattern)
+* 建造者模式(Builder Pattern)
+* 原型模式(Prototype Pattern)
+
+### 结构型模式
+这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
+### 行为型模式
+这些设计模式特别关注对象之间的通信。
+
+## GOF 23种设计模式
+### 创建型
+1. Factory Method（工厂方法）
+2. Abstract Factory（抽象工厂）
+3. Builder（建造者）
+4. Prototype（原型）
+5. Singleton（单例）
+
+### 结构型
+
+6. Adapter Class/Object（适配器）
+7. Bridge（桥接）
+8. Composite（组合）
+9. Decorator（装饰）
+10. Facade（外观）
+11. Flyweight（享元）
+12. Proxy（代理）
+
+### 行为型
+
+13. Interpreter（解释器）
+14. Template Method（模板方法）
+15. Chain of Responsibility（责任链）
+16. Command（命令）
+17. Iterator（迭代器）
+18. Mediator（中介者）
+19. Memento（备忘录）
+20. Observer（观察者）
+21. State（状态）
+22. Strategy（策略）
+23. Visitor（访问者）
+
+### 23种设计模式关系图
+
+![23种设计模式关系图](./assets/img/relationOfPatterns.jpg)
