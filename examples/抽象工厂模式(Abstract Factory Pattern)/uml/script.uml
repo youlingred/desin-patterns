@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script</OriginalElement>
+  <nodes>
+    <node x="180.6317364100214" y="437.37545413973015">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/AbstractFactory.js</node>
+    <node x="612.3374526579933" y="429.21556240331745">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Blue.js#Color#6;</node>
+    <node x="-178.86075949367086" y="379.11211573236875">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Circle.js#Shape#6;</node>
+    <node x="818.189126268259" y="294.04173208736233">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Color.js</node>
+    <node x="347.7989951381144" y="243.25227664020963">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Blue#88;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Red#59;</node>
+    <node x="182.40119760479035" y="86.7245508982036">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ColorFactory#53;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ShapeFactory#6;</node>
+    <node x="-169.01902524065795" y="159.0058256001559">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Rect.js#Shape#7;</node>
+    <node x="625.8284696429926" y="153.7430455544607">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Red.js#Color#6;</node>
+    <node x="-379.2043183073274" y="273.4512457905166">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Shape.js</node>
+    <node x="71.19161676646706" y="240.95808383233532">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Circle#59;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Rect#94;</node>
+    <node x="184.45633802816906" y="-68.64882629107984">/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/demo.js#FactoryProducer#6;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Red.js#Color#6;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Color.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Circle#59;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Rect#94;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/AbstractFactory.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Circle.js#Shape#6;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Shape.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Rect.js#Shape#7;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Shape.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Circle#59;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Rect#94;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Rect.js#Shape#7;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Blue#88;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Red#59;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Red.js#Color#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ColorFactory#53;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ShapeFactory#6;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Blue#88;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Red#59;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Blue.js#Color#6;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Color.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Blue#88;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Red#59;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/AbstractFactory.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Blue#88;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ColorFactory.js#Red#59;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Blue.js#Color#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ColorFactory#53;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ShapeFactory#6;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Circle#59;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Rect#94;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/demo.js#FactoryProducer#6;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ColorFactory#53;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/FactoryProducer.js#ShapeFactory#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Circle#59;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Rect#94;" target="/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/Circle.js#Shape#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7965594614809275" x="278.5" y="284.0" />
+  <SelectedNodes>
+    <node>/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#AbstractFactory#6;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Circle#59;/Users/xieyanhui/self/design-patterns/examples/抽象工厂模式(Abstract Factory Pattern)/script/ShapeFactory.js#Rect#94;</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

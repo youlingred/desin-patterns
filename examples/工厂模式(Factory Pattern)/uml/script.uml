@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script</OriginalElement>
+  <nodes>
+    <node x="89.88845891190533" y="239.02025950375602">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Blue.js#Color#6;</node>
+    <node x="-392.5442749829272" y="240.65240154791704">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Circle.js#Shape#6;</node>
+    <node x="233.867061233781" y="367.78647848850426">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Color.js</node>
+    <node x="183.89915775096745" y="101.24334167994547">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ColorFactory.js#Blue#35;/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ColorFactory.js#Red#6;</node>
+    <node x="-120.42818119735915" y="234.3273389483268">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Rect.js#Shape#7;</node>
+    <node x="345.1138174368315" y="235.1447757796494">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Red.js#Color#6;</node>
+    <node x="-245.40792169360333" y="358.1493284771226">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Shape.js</node>
+    <node x="-289.3284771226951" y="106.52674709765532">/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ShapeFactory.js#Circle#6;/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ShapeFactory.js#Rect#41;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ShapeFactory.js#Circle#6;/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ShapeFactory.js#Rect#41;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Circle.js#Shape#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Circle.js#Shape#6;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Shape.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ColorFactory.js#Blue#35;/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ColorFactory.js#Red#6;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Blue.js#Color#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ShapeFactory.js#Circle#6;/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ShapeFactory.js#Rect#41;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Rect.js#Shape#7;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Red.js#Color#6;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Color.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Rect.js#Shape#7;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Shape.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ColorFactory.js#Blue#35;/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/ColorFactory.js#Red#6;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Red.js#Color#6;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Blue.js#Color#6;" target="/Users/xieyanhui/self/design-patterns/examples/工厂模式(Factory Pattern)/script/Color.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7119935170178282" x="158.5" y="386.9839517414068" />
+  <SelectedNodes />
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

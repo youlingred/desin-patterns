@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/xieyanhui/self/design-patterns/examples/单例模式(Singleton Pattern)/script</OriginalElement>
+  <nodes>
+    <node x="0.0" y="142.0">/Users/xieyanhui/self/design-patterns/examples/单例模式(Singleton Pattern)/script/SingleObject.js</node>
+    <node x="0.0" y="0.0">/Users/xieyanhui/self/design-patterns/examples/单例模式(Singleton Pattern)/script/demo.js#SingleObject#6;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/xieyanhui/self/design-patterns/examples/单例模式(Singleton Pattern)/script/demo.js#SingleObject#6;" target="/Users/xieyanhui/self/design-patterns/examples/单例模式(Singleton Pattern)/script/SingleObject.js">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="86.5" />
+  <SelectedNodes>
+    <node>/Users/xieyanhui/self/design-patterns/examples/单例模式(Singleton Pattern)/script/SingleObject.js</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+
