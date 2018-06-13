@@ -5,7 +5,7 @@ circle.draw();
 const rect=FactoryProducer.getFactory('shape').getShape('rect');
 rect.draw();
 
-const blue=FactoryProducer.getFactory('color').getColor('blue')
+const blue=FactoryProducer.getFactory('color').getColor('blue');
 blue.fill();
-const red=FactoryProducer.getFactory('color').getColor('red')
+const red=FactoryProducer.getFactory('color').getColor('red');
 red.fill();
