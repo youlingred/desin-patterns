@@ -1,4 +1,26 @@
-# javascript [设计模式](http://www.runoob.com/design-pattern/design-pattern-intro.html)
+#如何使用项目创建文档
+### 创建实例
+
+```bash
+$  node create.js <文件名称>
+```
+生成文件目录
+
+```
+<文件名称>
+├── build.js
+├── script
+│   └── demo.js
+└── template.md
+
+```
+* 在script内编写代码
+* 在template.md里编写文档,需要嵌入高亮代码通过`{{xxx.js}}`引入
+### 编译
+```bash
+$ node examples/buildAll.js
+```
+## javascript [设计模式](http://www.runoob.com/design-pattern/design-pattern-intro.html)
 
 ## 设计模式分为三大类：
 创建型模式，共五种：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式。
